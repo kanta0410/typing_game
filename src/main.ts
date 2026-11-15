@@ -1,9 +1,12 @@
 import "./styles.css";
+import { applyCaretTheme, loadSettings } from "./engine/settings";
 import type { SessionStats } from "./engine/stats";
 import { appendSession } from "./engine/storage";
 import { renderHome } from "./ui/home";
 import { renderPlay } from "./ui/play";
 import { renderResult } from "./ui/result";
+
+applyCaretTheme(loadSettings().caretTheme);
 
 const appEl = document.querySelector<HTMLElement>("#app");
 if (!appEl) {

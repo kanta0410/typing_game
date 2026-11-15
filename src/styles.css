@@ -8,6 +8,40 @@
   --panel: #ffffff;
   --mono: "IBM Plex Mono", "Consolas", "Courier New", monospace;
   --sans: "IBM Plex Sans JP", "Hiragino Sans", "Yu Gothic UI", sans-serif;
+  /* いま打つ位置（デフォルト: 赤） */
+  --caret: #e11d48;
+  --caret-bg: rgba(225, 29, 72, 0.16);
+  --caret-underline: transparent;
+}
+
+html[data-caret="red"] {
+  --caret: #e11d48;
+  --caret-bg: rgba(225, 29, 72, 0.16);
+  --caret-underline: transparent;
+}
+
+html[data-caret="coral"] {
+  --caret: #f04323;
+  --caret-bg: rgba(240, 67, 35, 0.18);
+  --caret-underline: transparent;
+}
+
+html[data-caret="crimson"] {
+  --caret: #be123c;
+  --caret-bg: transparent;
+  --caret-underline: #be123c;
+}
+
+html[data-caret="rose"] {
+  --caret: #e11d8a;
+  --caret-bg: rgba(225, 29, 138, 0.15);
+  --caret-underline: transparent;
+}
+
+html[data-caret="amber"] {
+  --caret: #d97706;
+  --caret-bg: rgba(217, 119, 6, 0.2);
+  --caret-underline: transparent;
 }
 
 * {
@@ -162,11 +196,63 @@ p {
   line-height: 1.6;
 }
 
+.quote-text .caret,
+.furigana .caret,
 .romaji .caret {
-  color: var(--ink);
-  background: rgba(11, 110, 79, 0.18);
+  color: var(--caret);
+  background: var(--caret-bg);
+  border-bottom: 2px solid var(--caret-underline);
   border-radius: 3px;
   padding: 0 1px;
+  font-weight: 700;
+}
+
+.theme-grid {
+  display: grid;
+  gap: 0.65rem;
+  margin: 0.75rem 0 0.25rem;
+}
+
+.theme-card {
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 0.65rem 0.75rem;
+  cursor: pointer;
+  text-align: left;
+  background: #fff;
+  font: inherit;
+  color: inherit;
+}
+
+.theme-card[aria-checked="true"] {
+  border-color: var(--caret);
+  box-shadow: 0 0 0 2px var(--caret-bg);
+}
+
+.theme-card .theme-label {
+  font-weight: 700;
+  font-size: 0.9rem;
+  margin-bottom: 0.2rem;
+}
+
+.theme-card .theme-blurb {
+  font-size: 0.78rem;
+  color: var(--muted);
+  margin-bottom: 0.45rem;
+}
+
+.theme-preview {
+  font-family: var(--mono);
+  font-size: 1rem;
+  letter-spacing: 0.06em;
+}
+
+.theme-preview .done {
+  color: var(--accent);
+}
+
+.theme-preview .rest {
+  color: var(--muted);
 }
 
 .romaji {
