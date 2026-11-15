@@ -58,7 +58,7 @@ export const ROMAJI_MAP: Record<string, RomajiVariants> = {
   げ: ["ge"],
   ご: ["go"],
   ざ: ["za"],
-  じ: ["zi", "ji"],
+  じ: ["zi", "ji"], // 表示・ヒント優先は zi（chi 同様の訓令寄り）
   ず: ["zu"],
   ぜ: ["ze"],
   ぞ: ["zo"],

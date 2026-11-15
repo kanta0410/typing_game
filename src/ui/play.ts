@@ -1,4 +1,4 @@
-import { TypingGame } from "../engine/game";
+import { QuoteTypingGame } from "../engine/quote-game";
 import type { SessionStats } from "../engine/stats";
 
 function formatRemain(ms: number): string {
@@ -8,44 +8,99 @@ function formatRemain(ms: number): string {
   return `${m}:${r.toString().padStart(2, "0")}`;
 }
 
-function paintRomaji(hint: string, buffer: string): string {
-  const done = hint.slice(0, buffer.length);
-  const rest = hint.slice(buffer.length);
-  return `<span class="done">${done}</span><span class="rest">${rest}</span>`;
+function escapeHtml(s: string): string {
+  return s
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;");
+}
+
+function paintRomaji(romaji: string, typed: number): string {
+  const done = romaji.slice(0, typed);
+  const rest = romaji.slice(typed);
+  const next = rest.slice(0, 1);
+  const after = rest.slice(1);
+  return `<span class="done">${escapeHtml(done)}</span><span class="caret">${escapeHtml(next)}</span><span class="rest">${escapeHtml(after)}</span>`;
+}
+
+function paintFurigana(
+  furi: string,
+  doneEnd: number,
+  caretStart: number,
+  caretEnd: number,
+): string {
+  const chars = [...furi];
+  let html = "";
+  for (let i = 0; i < chars.length; i++) {
+    const ch = escapeHtml(chars[i]);
+    if (i < doneEnd) html += `<span class="done">${ch}</span>`;
+    else if (i >= caretStart && i < caretEnd)
+      html += `<span class="caret">${ch}</span>`;
+    else html += `<span class="rest">${ch}</span>`;
+  }
+  return html;
+}
+
+function paintQuote(text: string, ratio: number): string {
+  const chars = [...text];
+  const doneCount = Math.floor(chars.length * ratio);
+  let html = "";
+  for (let i = 0; i < chars.length; i++) {
+    const ch = escapeHtml(chars[i]);
+    if (i < doneCount) html += `<span class="done">${ch}</span>`;
+    else if (i === doneCount) html += `<span class="caret">${ch}</span>`;
+    else html += `<span class="rest">${ch}</span>`;
+  }
+  return html;
 }
 
 export function renderPlay(
   root: HTMLElement,
   onFinished: (stats: SessionStats) => void,
 ): void {
-  const game = new TypingGame();
+  const game = new QuoteTypingGame();
 
   root.innerHTML = `
-    <div class="brand">Playing</div>
-    <p class="warn">IME オフ・半角英字で入力</p>
-    <div class="panel">
-      <div class="kana" id="kana">あ</div>
-      <div class="romaji" id="romaji"></div>
+    <div class="brand">Quote Typing</div>
+    <p class="warn">IME オフ・半角でローマ字（ち=<code>ti</code> / し=<code>si</code>）</p>
+    <div class="panel play-panel">
+      <div class="author" id="author"></div>
+      <div class="quote-text" id="quote"></div>
+      <div class="furigana" id="furigana"></div>
+      <div class="romaji romaji-line" id="romaji"></div>
       <div class="meta">
         <div><strong id="time">1:00</strong><span>残り</span></div>
-        <div><strong id="correct">0</strong><span>正解</span></div>
+        <div><strong id="correct">0</strong><span>文字</span></div>
         <div><strong id="misses">0</strong><span>ミス</span></div>
+        <div><strong id="quotes">0</strong><span>名言</span></div>
       </div>
     </div>
   `;
 
-  const kanaEl = root.querySelector("#kana")!;
+  const authorEl = root.querySelector("#author")!;
+  const quoteEl = root.querySelector("#quote")!;
+  const furiEl = root.querySelector("#furigana")!;
   const romajiEl = root.querySelector("#romaji")!;
   const timeEl = root.querySelector("#time")!;
   const correctEl = root.querySelector("#correct")!;
   const missesEl = root.querySelector("#misses")!;
+  const quotesEl = root.querySelector("#quotes")!;
 
   const unsub = game.subscribe((snap) => {
-    kanaEl.textContent = snap.kana;
-    romajiEl.innerHTML = paintRomaji(snap.hint, snap.buffer);
+    authorEl.textContent = snap.quote.author;
+    quoteEl.innerHTML = paintQuote(snap.quote.textJa, snap.quoteRatio);
+    furiEl.innerHTML = paintFurigana(
+      snap.furigana,
+      snap.furiDoneEnd,
+      snap.furiCaretStart,
+      snap.furiCaretEnd,
+    );
+    romajiEl.innerHTML = paintRomaji(snap.romaji, snap.typed);
     timeEl.textContent = formatRemain(snap.remainingMs);
     correctEl.textContent = String(snap.correct);
     missesEl.textContent = String(snap.misses);
+    quotesEl.textContent = String(snap.quotesDone);
   });
 
   const onKey = (e: KeyboardEvent) => {

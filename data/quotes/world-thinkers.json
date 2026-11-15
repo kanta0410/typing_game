@@ -1,0 +1,464 @@
+[
+  {
+    "id": "world-001",
+    "author": "スティーブ・ジョブズ",
+    "authorEn": "Steve Jobs",
+    "textJa": "今日が人生最後の日だとしたら、今やろうとしていることは、本当にやりたいことだろうか。",
+    "source": "スタンフォード大学卒業式スピーチ（2005年）",
+    "tags": [
+      "world"
+    ],
+    "furigana": "きょうがじんせいさいごのひだとしたら、いまやろうとしていることは、ほんとうにやりたいことだろうか。"
+  },
+  {
+    "id": "world-002",
+    "author": "スティーブ・ジョブズ",
+    "authorEn": "Steve Jobs",
+    "textJa": "点と点は、後から見れば線につながることがある。",
+    "source": "スタンフォード大学卒業式スピーチ（2005年）",
+    "tags": [
+      "world"
+    ],
+    "furigana": "てんとてんは、あとからみればせんにつながることがある。"
+  },
+  {
+    "id": "world-003",
+    "author": "スティーブ・ジョブズ",
+    "authorEn": "Steve Jobs",
+    "textJa": "飢えよ、愚か者よ。",
+    "source": "『Whole Earth Catalog』最終号の言葉（1974年）",
+    "tags": [
+      "world"
+    ],
+    "furigana": "うえよ、おろかものよ。"
+  },
+  {
+    "id": "world-004",
+    "author": "アルバート・アインシュタイン",
+    "authorEn": "Albert Einstein",
+    "textJa": "想像力は知識よりも重要だ。",
+    "source": "インタビュー・書簡などで広く引用される言葉",
+    "tags": [
+      "world"
+    ],
+    "furigana": "そうぞうりょくはちしきよりもじゅうようだ。"
+  },
+  {
+    "id": "world-005",
+    "author": "アルバート・アインシュタイン",
+    "authorEn": "Albert Einstein",
+    "textJa": "問題を解決しようとするのに、それを作り出したのと同じ考え方をしている人間を信じてはいけない。",
+    "source": "『フランクリン・ロースベルトの世界協力』への寄稿など",
+    "tags": [
+      "world"
+    ],
+    "furigana": "もんだいをかいけつしようとするのに、それをつくりだしたのとおなじかんがえかたをしているにんげんをしんじてはいけない。"
+  },
+  {
+    "id": "world-006",
+    "author": "アルバート・アインシュタイン",
+    "authorEn": "Albert Einstein",
+    "textJa": "人生とは自転車に乗るようなものだ。バランスを保つには動き続けなければならない。",
+    "source": "息子への手紙（1930年頃）として伝わる",
+    "tags": [
+      "world"
+    ],
+    "furigana": "じんせいとはじてんしゃにのるようなものだ。ばらんすをたもつにはうごきつづけなければならない。"
+  },
+  {
+    "id": "world-007",
+    "author": "孔子",
+    "authorEn": "Confucius",
+    "textJa": "学びて時に之を習う、亦説ばしからずや。",
+    "source": "『論語』学而篇",
+    "tags": [
+      "world"
+    ],
+    "furigana": "まなびてときにこれをならう、またよろこばしからずや。"
+  },
+  {
+    "id": "world-008",
+    "author": "孔子",
+    "authorEn": "Confucius",
+    "textJa": "己の欲せざる所、人に施すこと勿れ。",
+    "source": "『論語』衛霊公篇（己の欲せざる所は人にも施すな）",
+    "tags": [
+      "world"
+    ],
+    "furigana": "おのれのほっせざるところ、ひとにほどこすことなかれ。"
+  },
+  {
+    "id": "world-009",
+    "author": "孔子",
+    "authorEn": "Confucius",
+    "textJa": "三人行れば必ず我が師あり。",
+    "source": "『論語』述而篇",
+    "tags": [
+      "world"
+    ],
+    "furigana": "さんにんゆけばかならずわがしあり。"
+  },
+  {
+    "id": "world-010",
+    "author": "セネカ",
+    "authorEn": "Seneca",
+    "textJa": "幸せな人生を送るには、我々自身の内に幸せの源泉を見出さなければならない。",
+    "source": "『道徳書簡集』",
+    "tags": [
+      "world"
+    ],
+    "furigana": "しあわせなじんせいをおくるには、われわれじしんのうちにしあわせのげんせんをみいださなければならない。"
+  },
+  {
+    "id": "world-011",
+    "author": "セネカ",
+    "authorEn": "Seneca",
+    "textJa": "人生は長い。だが、多くの人はそれを無駄に過ごしている。",
+    "source": "『人生の短さについて』",
+    "tags": [
+      "world"
+    ],
+    "furigana": "じんせいはながい。だが、おおくのひとはそれをむだにすごしている。"
+  },
+  {
+    "id": "world-012",
+    "author": "マルクス・アウレリウス",
+    "authorEn": "Marcus Aurelius",
+    "textJa": "あなたの人生は、あなたの思考が作るものだ。",
+    "source": "『自省録』",
+    "tags": [
+      "world"
+    ],
+    "furigana": "あなたのじんせいは、あなたのしこうがつくるものだ。"
+  },
+  {
+    "id": "world-013",
+    "author": "マルクス・アウレリウス",
+    "authorEn": "Marcus Aurelius",
+    "textJa": "苦しむのは出来事そのものではなく、その出来事に対するあなたの判断である。",
+    "source": "『自省録』",
+    "tags": [
+      "world"
+    ],
+    "furigana": "くるしむのはできごとそのものではなく、そのできごとにたいするあなたのはんだんである。"
+  },
+  {
+    "id": "world-014",
+    "author": "マルクス・アウレリウス",
+    "authorEn": "Marcus Aurelius",
+    "textJa": "心の中に引きこもるとき、どこにもこれほど静かで、邪魔の入らない場所はない。",
+    "source": "『自省録』第七章近辺の定訳趣旨",
+    "tags": [
+      "world"
+    ],
+    "furigana": "こころのなかにひきこもるとき、どこにもこれほどしずかで、じゃまのはいらないばしょはない。"
+  },
+  {
+    "id": "world-015",
+    "author": "ウィンストン・チャーチル",
+    "authorEn": "Winston Churchill",
+    "textJa": "成功とは、失敗から失敗へと情熱を失わずに進むことである。",
+    "source": "チャーチル関連演説・回顧録で広く引用",
+    "tags": [
+      "world"
+    ],
+    "furigana": "せいこうとは、しっぱいからしっぱいへとじょうねつをうしなわずにすすむことである。"
+  },
+  {
+    "id": "world-016",
+    "author": "ウィンストン・チャーチル",
+    "authorEn": "Winston Churchill",
+    "textJa": "決して、決して、決して、決して諦めるな。",
+    "source": "ハロウ校での演説（1941年）",
+    "tags": [
+      "world"
+    ],
+    "furigana": "けっして、けっして、けっして、けっしてあきらめるな。"
+  },
+  {
+    "id": "world-017",
+    "author": "マリー・キュリー",
+    "authorEn": "Marie Curie",
+    "textJa": "人生において恐れるべきものは何もない。理解すべきことがあるだけだ。",
+    "source": "マリー・キュリーの書簡・回顧録に通じる言葉",
+    "tags": [
+      "world"
+    ],
+    "furigana": "じんせいにおいておそれるべきものはなにもない。りかいすべきことがあるだけだ。"
+  },
+  {
+    "id": "world-018",
+    "author": "マリー・キュリー",
+    "authorEn": "Marie Curie",
+    "textJa": "何事も恐れず、小さなことに心を寄せよ。",
+    "source": "書簡に見られる態度を要約した日本語引用",
+    "tags": [
+      "world"
+    ],
+    "furigana": "なにごともおそれず、ちいさなことにこころをよせよ。"
+  },
+  {
+    "id": "world-019",
+    "author": "レオナルド・ダ・ヴィンチ",
+    "authorEn": "Leonardo da Vinci",
+    "textJa": "学ぶことをやめた者は、既に老化している。",
+    "source": "レオナルドのノート（コーデックス）",
+    "tags": [
+      "world"
+    ],
+    "furigana": "まなぶことをやめたものは、すでにろうかしている。"
+  },
+  {
+    "id": "world-020",
+    "author": "レオナルド・ダ・ヴィンチ",
+    "authorEn": "Leonardo da Vinci",
+    "textJa": "単純さは、究極の洗練である。",
+    "source": "レオナルド関連ノート・伝承（アンティゴーヌ引用説あり）",
+    "tags": [
+      "world"
+    ],
+    "furigana": "たんじゅんさは、きゅうきょくのせんれんである。"
+  },
+  {
+    "id": "world-021",
+    "author": "釈迦",
+    "authorEn": "Buddha",
+    "textJa": "怒りを抱き続けることは、熱い石炭を握りしめているようなものである。",
+    "source": "ダンマパダ（怒りの喩え）",
+    "tags": [
+      "world"
+    ],
+    "furigana": "いかりをいだきつづけることは、あついせきたんをにぎりしめているようなものである。"
+  },
+  {
+    "id": "world-022",
+    "author": "釈迦",
+    "authorEn": "Buddha",
+    "textJa": "自分自身を灯として、自分自身を依り所として歩め。",
+    "source": "ダンマパダ（Attā hi attano natho）",
+    "tags": [
+      "world"
+    ],
+    "furigana": "じぶんじしんをあかりとして、じぶんじしんをよりどころとしてあゆめ。"
+  },
+  {
+    "id": "world-023",
+    "author": "老子",
+    "authorEn": "Lao Tzu",
+    "textJa": "千里の道も一歩から。",
+    "source": "『道徳経』六十四章の意（日本で広く知られる語）",
+    "tags": [
+      "world"
+    ],
+    "furigana": "せんりのみちもいっぽから。"
+  },
+  {
+    "id": "world-024",
+    "author": "老子",
+    "authorEn": "Lao Tzu",
+    "textJa": "上善は水の如し。水は万物を利して争わず。",
+    "source": "『道徳経』八章",
+    "tags": [
+      "world"
+    ],
+    "furigana": "じょうぜんはみずのごとし。みずはばんぶつをりしてあらそわず。"
+  },
+  {
+    "id": "world-025",
+    "author": "ソクラテス",
+    "authorEn": "Socrates",
+    "textJa": "吟味されぬ人生は、生きるに値しない。",
+    "source": "プラトン『アポロギア』（38a）",
+    "tags": [
+      "world"
+    ],
+    "furigana": "ぎんみされぬじんせいは、いきるにあたいしない。"
+  },
+  {
+    "id": "world-026",
+    "author": "ソクラテス",
+    "authorEn": "Socrates",
+    "textJa": "私が知っているのは、私が何も知らないということだけである。",
+    "source": "プラトン『アポロギア』（無知の知）",
+    "tags": [
+      "world"
+    ],
+    "furigana": "わたしがしっているのは、わたしがなにもしらないということだけである。"
+  },
+  {
+    "id": "world-027",
+    "author": "アリストテレス",
+    "authorEn": "Aristotle",
+    "textJa": "幸福は自分自身に依存する。",
+    "source": "『ニコマコス倫理学』",
+    "tags": [
+      "world"
+    ],
+    "furigana": "こうふくはじぶんじしんにいぞんする。"
+  },
+  {
+    "id": "world-028",
+    "author": "アリストテレス",
+    "authorEn": "Aristotle",
+    "textJa": "徳は習慣によって生まれ、それを欠くのも習慣による。",
+    "source": "『ニコマコス倫理学』第二巻",
+    "tags": [
+      "world"
+    ],
+    "furigana": "とくはしゅうかんによってうまれ、それをかくのもしゅうかんによる。"
+  },
+  {
+    "id": "world-029",
+    "author": "イマヌエル・カント",
+    "authorEn": "Immanuel Kant",
+    "textJa": "汝の意志の格率が、いつでも法則作りの原理となるように行動せよ。",
+    "source": "『実践理性批判』定言命法",
+    "tags": [
+      "world"
+    ],
+    "furigana": "なんじのいしのかくりつが、いつでもほうそくづくりのげんりとなるようにこうどうせよ。"
+  },
+  {
+    "id": "world-030",
+    "author": "イマヌエル・カント",
+    "authorEn": "Immanuel Kant",
+    "textJa": "星辰の上に、道徳の法則の内に、二つのものが私の心を畏敬の念で満たす。",
+    "source": "『実践理性批判』結語",
+    "tags": [
+      "world"
+    ],
+    "furigana": "せいしんのうえに、どうとくのほうそくのうちに、ふたつのものがわたしのこころをいけいのねんでみたす。"
+  },
+  {
+    "id": "world-031",
+    "author": "ヴォルテール",
+    "authorEn": "Voltaire",
+    "textJa": "意見を持つ自由と、それを表現する自由は、人間にとって最も貴重な二つのものである。",
+    "source": "『ターレマン』等に通じる思想",
+    "tags": [
+      "world"
+    ],
+    "furigana": "いけんをもつじゆうと、それをひょうげんするじゆうは、にんげんにとってもっともきちょうなふたつのものである。"
+  },
+  {
+    "id": "world-032",
+    "author": "ヴォルテール",
+    "authorEn": "Voltaire",
+    "textJa": "あなたの意見には反対だが、あなたがそれを語る権利は命がけで守る。",
+    "source": "ヴォルテールに関する伝承（E. B. ホール『友人の精神』の要旨）",
+    "tags": [
+      "world"
+    ],
+    "furigana": "あなたのいけんにははんたいだが、あなたがそれをかたるけんりはいのちがけでまもる。"
+  },
+  {
+    "id": "world-033",
+    "author": "マハトマ・ガンディー",
+    "authorEn": "Mahatma Gandhi",
+    "textJa": "目に見える変化を望むなら、まず自分自身がその変化になれ。",
+    "source": "ガンディーの言行録で広く引用",
+    "tags": [
+      "world"
+    ],
+    "furigana": "めにみえるへんかをのぞむなら、まずじぶんじしんがそのへんかになれ。"
+  },
+  {
+    "id": "world-034",
+    "author": "マハトマ・ガンディー",
+    "authorEn": "Mahatma Gandhi",
+    "textJa": "弱い者は許せない。許しは強者の属性である。",
+    "source": "『自己の統御』等",
+    "tags": [
+      "world"
+    ],
+    "furigana": "よわいものはゆるせない。ゆるしはきょうしゃのぞくせいである。"
+  },
+  {
+    "id": "world-035",
+    "author": "ネルソン・マンデラ",
+    "authorEn": "Nelson Mandela",
+    "textJa": "教育は、世界を変えるために使える最も強力な武器である。",
+    "source": "1990年・2003年の演説等",
+    "tags": [
+      "world"
+    ],
+    "furigana": "きょういくは、せかいをかえるためにつかえるもっともきょうりょくなぶきである。"
+  },
+  {
+    "id": "world-036",
+    "author": "ネルソン・マンデラ",
+    "authorEn": "Nelson Mandela",
+    "textJa": "常に不可能に見えることは、決して不可能ではない。",
+    "source": "『自伝 長い夜を越えて』の趣旨",
+    "tags": [
+      "world"
+    ],
+    "furigana": "つねにふかのうにみえることは、けっしてふかのうではない。"
+  },
+  {
+    "id": "world-037",
+    "author": "エイブラハム・リンカーン",
+    "authorEn": "Abraham Lincoln",
+    "textJa": "ほとんどの人は、自分に与えられるほどの幸福で満足する。",
+    "source": "リンカーンの書簡・言葉集",
+    "tags": [
+      "world"
+    ],
+    "furigana": "ほとんどのひとは、じぶんにあたえられるほどのこうふくでまんぞくする。"
+  },
+  {
+    "id": "world-038",
+    "author": "エイブラハム・リンカーン",
+    "authorEn": "Abraham Lincoln",
+    "textJa": "七年かかって育った木を切り倒すには、どんなに鋭い斧でも一分もかからない。",
+    "source": "リンカーンの比喩として伝わる",
+    "tags": [
+      "world"
+    ],
+    "furigana": "しちねんかかってそだったきをきりたおすには、どんなにするどいおのでもいっぷんもかからない。"
+  },
+  {
+    "id": "world-039",
+    "author": "ヘレン・ケラー",
+    "authorEn": "Helen Keller",
+    "textJa": "人生は挑戦するか、死ぬかのどちらかだ。",
+    "source": "ヘレン・ケラー著書・演説",
+    "tags": [
+      "world"
+    ],
+    "furigana": "じんせいはちょうせんするか、しぬかのどちらかだ。"
+  },
+  {
+    "id": "world-040",
+    "author": "ヘレン・ケラー",
+    "authorEn": "Helen Keller",
+    "textJa": "世界で最も不幸な人は、見ることのできない人ではなく、見ることを拒む人である。",
+    "source": "ヘレン・ケラーの随筆",
+    "tags": [
+      "world"
+    ],
+    "furigana": "せかいでもっともふこうなひとは、みることのできないひとではなく、みることをこばむひとである。"
+  },
+  {
+    "id": "world-041",
+    "author": "パブロ・ピカソ",
+    "authorEn": "Pablo Picasso",
+    "textJa": "芸術とは嘘である。真実を語らないことで、私たちは真実のことを語るのだ。",
+    "source": "ピカソの発言として広く引用",
+    "tags": [
+      "world"
+    ],
+    "furigana": "げいじゅつとはうそである。しんじつをかたらないことで、わたしたちはしんじつのことをかたるのだ。"
+  },
+  {
+    "id": "world-042",
+    "author": "アーネスト・ヘミングウェイ",
+    "authorEn": "Ernest Hemingway",
+    "textJa": "人は倒れるのではない。やめるときに倒れる。",
+    "source": "ヘミングウェイの格言として広く引用",
+    "tags": [
+      "world"
+    ],
+    "furigana": "ひとはたおれるのではない。やめるときにたおれる。"
+  }
+]

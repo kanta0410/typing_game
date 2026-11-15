@@ -47,7 +47,7 @@ export function renderResult(
 
   root.innerHTML = `
     <div class="brand">Result</div>
-    <h1>1分の結果</h1>
+    <h1>名言タイピング結果</h1>
     <div class="stats-grid panel" style="margin-top:1rem">
       <div class="stat-card">
         <strong>${Math.round(s.cpm)}</strong>

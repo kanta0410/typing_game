@@ -1,0 +1,345 @@
+[
+  {
+    "id": "elon-001",
+    "author": "イーロン・マスク",
+    "authorEn": "Elon Musk",
+    "textJa": "失敗が怖いなら、おそらく十分にイノベーションしていない。",
+    "source": "インタビュー等で広く引用（意訳あり）",
+    "tags": [
+      "tech",
+      "ambition"
+    ],
+    "furigana": "しっぱいがこわいなら、おそらくじゅうぶんにいのべーしょんしていない。"
+  },
+  {
+    "id": "elon-002",
+    "author": "イーロン・マスク",
+    "authorEn": "Elon Musk",
+    "textJa": "物理学は真実を教えてくれる。他の多くは意見だ。",
+    "source": "第一原理思考についての発言（意訳）",
+    "tags": [
+      "tech",
+      "thinking"
+    ],
+    "furigana": "ぶつりがくはしんじつをおしえてくれる。ほかのおおくはいけんだ。"
+  },
+  {
+    "id": "elon-003",
+    "author": "イーロン・マスク",
+    "authorEn": "Elon Musk",
+    "textJa": "持続可能エネルギーへの移行は、人類にとって重要だ。",
+    "source": "Tesla / エネルギー関連の趣旨（要約）",
+    "tags": [
+      "tech",
+      "energy"
+    ],
+    "furigana": "じぞくかのうえねるぎーへのいこうは、じんるいにとってじゅうようだ。"
+  },
+  {
+    "id": "elon-004",
+    "author": "イーロン・マスク",
+    "authorEn": "Elon Musk",
+    "textJa": "火星を人類のバックアップにしたい。",
+    "source": "SpaceX の使命に関する発言（要約）",
+    "tags": [
+      "space",
+      "ambition"
+    ],
+    "furigana": "かせいをじんるいのばっくあっぷにしたい。"
+  },
+  {
+    "id": "elon-005",
+    "author": "イーロン・マスク",
+    "authorEn": "Elon Musk",
+    "textJa": "良いアイデアは、批判に耐えられるはずだ。",
+    "source": "公開討論・発言で繰り返し触れられる趣旨",
+    "tags": [
+      "thinking"
+    ],
+    "furigana": "よいあいであは、ひはんにたえられるはずだ。"
+  },
+  {
+    "id": "elon-006",
+    "author": "イーロン・マスク",
+    "authorEn": "Elon Musk",
+    "textJa": "仕事はつらいものだ。情熱がなければ続かない。",
+    "source": "起業・働き方に関する発言（意訳）",
+    "tags": [
+      "work",
+      "ambition"
+    ],
+    "furigana": "しごとはつらいものだ。じょうねつがなければつづかない。"
+  },
+  {
+    "id": "elon-007",
+    "author": "イーロン・マスク",
+    "authorEn": "Elon Musk",
+    "textJa": "問題を根本から分解し、第一原理で考えよ。",
+    "source": "第一原理思考の説明（要約）",
+    "tags": [
+      "thinking"
+    ],
+    "furigana": "もんだいをこんぽんからぶんかいし、だいいちげんりでかんがえよ。"
+  },
+  {
+    "id": "elon-008",
+    "author": "イーロン・マスク",
+    "authorEn": "Elon Musk",
+    "textJa": "製造は本当に難しい。製品を作るより難しいこともある。",
+    "source": "製造・スケールに関する発言（意訳）",
+    "tags": [
+      "tech",
+      "manufacturing"
+    ],
+    "furigana": "せいぞうはほんとうにむずかしい。せいひんをつくるよりむずかしいこともある。"
+  },
+  {
+    "id": "elon-009",
+    "author": "イーロン・マスク",
+    "authorEn": "Elon Musk",
+    "textJa": "未来を予測する最良の方法は、それを作ることだ。",
+    "source": "広く引用される趣旨（起源は議論あり／意訳）",
+    "tags": [
+      "ambition"
+    ],
+    "furigana": "みらいをよそくするさいりょうのほうほうは、それをつくることだ。"
+  },
+  {
+    "id": "elon-010",
+    "author": "イーロン・マスク",
+    "authorEn": "Elon Musk",
+    "textJa": "退屈な会議は、誰かが責任を取っていない証拠だ。",
+    "source": "会議文化への批判的発言（意訳）",
+    "tags": [
+      "work"
+    ],
+    "furigana": "たいくつなかいぎは、だれかがせきにんをとっていないしょうこだ。"
+  },
+  {
+    "id": "elon-011",
+    "author": "イーロン・マスク",
+    "authorEn": "Elon Musk",
+    "textJa": "定数のように見えるものでも、疑ってみることがある。",
+    "source": "常識を疑う姿勢についての趣旨（要約）",
+    "tags": [
+      "thinking"
+    ],
+    "furigana": "ていすうのようにみえるものでも、うたがってみることがある。"
+  },
+  {
+    "id": "elon-012",
+    "author": "イーロン・マスク",
+    "authorEn": "Elon Musk",
+    "textJa": "フィードバックのループを速く回せ。",
+    "source": "エンジニアリング文化に関する趣旨（要約）",
+    "tags": [
+      "tech",
+      "work"
+    ],
+    "furigana": "ふぃーどばっくのるーぷをはやくまわせ。"
+  },
+  {
+    "id": "elon-013",
+    "author": "イーロン・マスク",
+    "authorEn": "Elon Musk",
+    "textJa": "要件が間違っていれば、どんな最適化も無駄になる。",
+    "source": "アルゴリズム／設計に関する発言の趣旨（要約）",
+    "tags": [
+      "tech",
+      "thinking"
+    ],
+    "furigana": "ようけんがまちがっていれば、どんなさいてきかもむだになる。"
+  },
+  {
+    "id": "elon-014",
+    "author": "イーロン・マスク",
+    "authorEn": "Elon Musk",
+    "textJa": "プロセスは目的ではない。結果が目的だ。",
+    "source": "プロセス偏重への批判（意訳）",
+    "tags": [
+      "work"
+    ],
+    "furigana": "ぷろせすはもくてきではない。けっかがもくてきだ。"
+  },
+  {
+    "id": "elon-015",
+    "author": "イーロン・マスク",
+    "authorEn": "Elon Musk",
+    "textJa": "電気自動車を主流にしたい。",
+    "source": "Tesla の使命（要約）",
+    "tags": [
+      "tech",
+      "energy"
+    ],
+    "furigana": "でんきじどうしゃをしゅりゅうにしたい。"
+  },
+  {
+    "id": "elon-016",
+    "author": "イーロン・マスク",
+    "authorEn": "Elon Musk",
+    "textJa": "人生は短すぎる。 bell curve の外側を狙え。",
+    "source": "リスクテイクに関する趣旨（意訳）",
+    "tags": [
+      "ambition"
+    ],
+    "furigana": "じんせいはみじかすぎる。べるかーぶのそとがわをねらえ。"
+  },
+  {
+    "id": "elon-017",
+    "author": "イーロン・マスク",
+    "authorEn": "Elon Musk",
+    "textJa": "ハードな問題に取り組むこと自体に価値がある。",
+    "source": "ミッション選定についての趣旨（要約）",
+    "tags": [
+      "ambition"
+    ],
+    "furigana": "はーどなもんだいにとりくむことじたいにかちがある。"
+  },
+  {
+    "id": "elon-018",
+    "author": "イーロン・マスク",
+    "authorEn": "Elon Musk",
+    "textJa": "設計を削除できるなら、まず削除を試せ。",
+    "source": "設計簡素化の原則（要約）",
+    "tags": [
+      "tech"
+    ],
+    "furigana": "せっけいをさくじょできるなら、まずさくじょをためせ。"
+  },
+  {
+    "id": "elon-019",
+    "author": "イーロン・マスク",
+    "authorEn": "Elon Musk",
+    "textJa": "部品点数を減らせ。複雑さは敵だ。",
+    "source": "製造・設計に関する趣旨（要約）",
+    "tags": [
+      "tech",
+      "manufacturing"
+    ],
+    "furigana": "ぶひんてんすうをへらせ。ふくざつさはてきだ。"
+  },
+  {
+    "id": "elon-020",
+    "author": "イーロン・マスク",
+    "authorEn": "Elon Musk",
+    "textJa": "質問の質が、答えの質を決める。",
+    "source": "問題解決に関する趣旨（要約）",
+    "tags": [
+      "thinking"
+    ],
+    "furigana": "しつもんのしつが、こたえのしつをきめる。"
+  },
+  {
+    "id": "elon-021",
+    "author": "イーロン・マスク",
+    "authorEn": "Elon Musk",
+    "textJa": "自分で手を動かし、現場を知れ。",
+    "source": "現場重視の発言趣旨（要約）",
+    "tags": [
+      "work"
+    ],
+    "furigana": "じぶんでてをうごかし、げんばをしれ。"
+  },
+  {
+    "id": "elon-022",
+    "author": "イーロン・マスク",
+    "authorEn": "Elon Musk",
+    "textJa": "スケジュールは希望ではなく、コミットメントだ。",
+    "source": "納期文化に関する趣旨（意訳）",
+    "tags": [
+      "work"
+    ],
+    "furigana": "すけじゅーるはきぼうではなく、こみっとめんとだ。"
+  },
+  {
+    "id": "elon-023",
+    "author": "イーロン・マスク",
+    "authorEn": "Elon Musk",
+    "textJa": "多惑星種になることが、長期の保険になる。",
+    "source": "多惑星文明論の趣旨（要約）",
+    "tags": [
+      "space"
+    ],
+    "furigana": "たわくせいしゅになることが、ちょうきのほけんになる。"
+  },
+  {
+    "id": "elon-024",
+    "author": "イーロン・マスク",
+    "authorEn": "Elon Musk",
+    "textJa": "不可能に見えても、物理法則に反しなければ挑める。",
+    "source": "第一原理・挑戦に関する趣旨（意訳）",
+    "tags": [
+      "ambition",
+      "thinking"
+    ],
+    "furigana": "ふかのうにみえても、ぶつりほうそくにはんしなければいどめる。"
+  },
+  {
+    "id": "elon-025",
+    "author": "イーロン・マスク",
+    "authorEn": "Elon Musk",
+    "textJa": "顧客の痛みを消す製品を作れ。",
+    "source": "プロダクト思想の趣旨（要約）",
+    "tags": [
+      "tech",
+      "work"
+    ],
+    "furigana": "こきゃくのいたみをけすせいひんをつくれ。"
+  },
+  {
+    "id": "elon-026",
+    "author": "イーロン・マスク",
+    "authorEn": "Elon Musk",
+    "textJa": "会議に人が多すぎるなら、誰かは不要だ。",
+    "source": "会議効率化に関する発言（意訳）",
+    "tags": [
+      "work"
+    ],
+    "furigana": "かいぎにひとがおおすぎるなら、だれかはふようだ。"
+  },
+  {
+    "id": "elon-027",
+    "author": "イーロン・マスク",
+    "authorEn": "Elon Musk",
+    "textJa": "学習曲線を急にしろ。毎日少しずつ賢くなれ。",
+    "source": "学習・成長に関する趣旨（要約）",
+    "tags": [
+      "ambition"
+    ],
+    "furigana": "がくしゅうきょくせんをきゅうにしろ。まいにちすこしずつかしこくなれ。"
+  },
+  {
+    "id": "elon-028",
+    "author": "イーロン・マスク",
+    "authorEn": "Elon Musk",
+    "textJa": "目標は高く、期限は厳しく。",
+    "source": "目標設定文化の趣旨（要約）",
+    "tags": [
+      "ambition",
+      "work"
+    ],
+    "furigana": "もくひょうはたかく、きげんはきびしく。"
+  },
+  {
+    "id": "elon-029",
+    "author": "イーロン・マスク",
+    "authorEn": "Elon Musk",
+    "textJa": "真実の探求は、心地よさより優先されるべきだ。",
+    "source": "真実・批判文化に関する趣旨（意訳）",
+    "tags": [
+      "thinking"
+    ],
+    "furigana": "しんじつのたんきゅうは、ここちよさよりゆうせんされるべきだ。"
+  },
+  {
+    "id": "elon-030",
+    "author": "イーロン・マスク",
+    "authorEn": "Elon Musk",
+    "textJa": "世界を少しでも良くする仕事を選べ。",
+    "source": "ミッション選定の趣旨（要約）",
+    "tags": [
+      "ambition"
+    ],
+    "furigana": "せかいをすこしでもよくするしごとをえらべ。"
+  }
+]

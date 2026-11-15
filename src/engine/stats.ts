@@ -64,9 +64,17 @@ export function cpm(stats: SessionStats): number {
 }
 
 export function aggregateChars(samples: CharSample[]): CharAgg[] {
-  const map = new Map<string, { sum: number; n: number; cvN: number }>();
+  const map = new Map<
+    string,
+    { sum: number; n: number; cvN: number; romaji: string }
+  >();
   for (const s of samples) {
-    const cur = map.get(s.kana) ?? { sum: 0, n: 0, cvN: 0 };
+    const cur = map.get(s.kana) ?? {
+      sum: 0,
+      n: 0,
+      cvN: 0,
+      romaji: s.romaji,
+    };
     cur.n += 1;
     if (s.cvMs != null) {
       cur.sum += s.cvMs;
@@ -78,11 +86,17 @@ export function aggregateChars(samples: CharSample[]): CharAgg[] {
   const rows: CharAgg[] = [];
   for (const [kana, v] of map) {
     const avgCvMs = v.cvN > 0 ? v.sum / v.cvN : null;
+    let tipRoma = v.romaji;
+    try {
+      tipRoma = getPrimaryRomaji(kana);
+    } catch {
+      // 拗音・ASCII などマップ外はそのまま
+    }
     rows.push({
       kana,
       count: v.n,
       avgCvMs,
-      tip: tipForRomaji(getPrimaryRomaji(kana)),
+      tip: tipForRomaji(tipRoma),
     });
   }
 
