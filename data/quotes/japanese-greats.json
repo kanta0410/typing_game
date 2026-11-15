@@ -1,0 +1,484 @@
+[
+  {
+    "id": "jp-001",
+    "author": "福沢諭吉",
+    "authorEn": "Yukichi Fukuzawa",
+    "textJa": "天は人の上に人を造らず、人の下に人を造らず。",
+    "source": "『学問のすゝめ』",
+    "tags": [
+      "japan",
+      "education"
+    ],
+    "furigana": "てんはひとのうえにひとをつくらず、ひとのしたにひとをつくらず。"
+  },
+  {
+    "id": "jp-002",
+    "author": "夏目漱石",
+    "authorEn": "Soseki Natsume",
+    "textJa": "智に働けば角が立つ。情に棹させば流される。",
+    "source": "『草枕』",
+    "tags": [
+      "japan",
+      "literature"
+    ],
+    "furigana": "ちにはたらけばかどがたつ。じょうにさおさせばながされる。"
+  },
+  {
+    "id": "jp-003",
+    "author": "宮沢賢治",
+    "authorEn": "Kenji Miyazawa",
+    "textJa": "雨ニモマケズ、風ニモマケズ。",
+    "source": "『雨ニモマケズ』",
+    "tags": [
+      "japan",
+      "literature"
+    ],
+    "furigana": "あめにもまけず、かぜにもまけず。"
+  },
+  {
+    "id": "jp-004",
+    "author": "松下幸之助",
+    "authorEn": "Konosuke Matsushita",
+    "textJa": "成功は失敗の回数より、成功への情熱の強さで決まる。",
+    "source": "松下幸之助の経営語録として広く引用（表現ゆれあり）",
+    "tags": [
+      "japan",
+      "business"
+    ],
+    "furigana": "せいこうはしっぱいのかいすうより、せいこうへのじょうねつのつよさできまる。"
+  },
+  {
+    "id": "jp-005",
+    "author": "本田宗一郎",
+    "authorEn": "Soichiro Honda",
+    "textJa": "成功は九十九パーセントの失敗に支えられた、一パーセントだ。",
+    "source": "本田宗一郎の言葉として広く知られる",
+    "tags": [
+      "japan",
+      "business"
+    ],
+    "furigana": "せいこうはきゅうじゅうきゅうぱーせんとのしっぱいにささえられた、いちぱーせんとだ。"
+  },
+  {
+    "id": "jp-006",
+    "author": "渋沢栄一",
+    "authorEn": "Eiichi Shibusawa",
+    "textJa": "論語と算盤は、両立すべきものだ。",
+    "source": "『論語と算盤』の趣旨",
+    "tags": [
+      "japan",
+      "business"
+    ],
+    "furigana": "ろんごとそろばんは、りょうりつすべきものだ。"
+  },
+  {
+    "id": "jp-007",
+    "author": "吉田松陰",
+    "authorEn": "Shoin Yoshida",
+    "textJa": "夢なき者に成功なし。",
+    "source": "吉田松陰の言葉として広く引用（異同あり）",
+    "tags": [
+      "japan",
+      "history"
+    ],
+    "furigana": "ゆめなきものにせいこうなし。"
+  },
+  {
+    "id": "jp-008",
+    "author": "武田信玄",
+    "authorEn": "Shingen Takeda",
+    "textJa": "人は城、人は石垣、人は堀。",
+    "source": "武田信玄に帰せられる有名句",
+    "tags": [
+      "japan",
+      "history"
+    ],
+    "furigana": "ひとはしろ、ひとはいしがき、ひとはほり。"
+  },
+  {
+    "id": "jp-009",
+    "author": "徳川家康",
+    "authorEn": "Ieyasu Tokugawa",
+    "textJa": "人生は重荷を負うて、遠き道を行くがごとし。",
+    "source": "遺訓として伝わる文（成立には議論あり）",
+    "tags": [
+      "japan",
+      "history"
+    ],
+    "furigana": "じんせいはおもにをおうて、とおきみちをゆくがごとし。"
+  },
+  {
+    "id": "jp-010",
+    "author": "岡本太郎",
+    "authorEn": "Taro Okamoto",
+    "textJa": "芸術は爆発だ。",
+    "source": "岡本太郎の有名な言葉",
+    "tags": [
+      "japan",
+      "art"
+    ],
+    "furigana": "げいじゅつはばくはつだ。"
+  },
+  {
+    "id": "jp-011",
+    "author": "手塚治虫",
+    "authorEn": "Osamu Tezuka",
+    "textJa": "漫画は、心を動かすための道具だ。",
+    "source": "手塚の漫画観の趣旨（要約）",
+    "tags": [
+      "japan",
+      "art"
+    ],
+    "furigana": "まんがは、こころをうごかすためのどうぐだ。"
+  },
+  {
+    "id": "jp-012",
+    "author": "安藤忠雄",
+    "authorEn": "Tadao Ando",
+    "textJa": "建築は、光と影の芸術だ。",
+    "source": "安藤忠雄の建築観として広く語られる趣旨",
+    "tags": [
+      "japan",
+      "art"
+    ],
+    "furigana": "けんちくは、ひかりとかげのげいじゅつだ。"
+  },
+  {
+    "id": "jp-013",
+    "author": "稲盛和夫",
+    "authorEn": "Kazuo Inamori",
+    "textJa": "心を高めることが、経営の原点だ。",
+    "source": "稲盛和夫の経営哲学の趣旨",
+    "tags": [
+      "japan",
+      "business"
+    ],
+    "furigana": "こころをたかめることが、けいえいのげんてんだ。"
+  },
+  {
+    "id": "jp-014",
+    "author": "孫正義",
+    "authorEn": "Masayoshi Son",
+    "textJa": "情報革命で人々を幸せに。",
+    "source": "ソフトバンクのビジョンに関する趣旨",
+    "tags": [
+      "japan",
+      "business",
+      "tech"
+    ],
+    "furigana": "じょうほうかくめいでひとびとをしあわせに。"
+  },
+  {
+    "id": "jp-015",
+    "author": "福沢諭吉",
+    "authorEn": "Yukichi Fukuzawa",
+    "textJa": "学問は、実学であるべきだ。",
+    "source": "『学問のすゝめ』の趣旨",
+    "tags": [
+      "japan",
+      "education"
+    ],
+    "furigana": "がくもんは、じつがくであるべきだ。"
+  },
+  {
+    "id": "jp-016",
+    "author": "夏目漱石",
+    "authorEn": "Soseki Natsume",
+    "textJa": "則天去私。",
+    "source": "晩年の理想として伝えられる語",
+    "tags": [
+      "japan",
+      "literature"
+    ],
+    "furigana": "そくてんきょし。"
+  },
+  {
+    "id": "jp-017",
+    "author": "宮沢賢治",
+    "authorEn": "Kenji Miyazawa",
+    "textJa": "世界がぜんたい幸福にならないうちは、個人の幸福はあり得ない。",
+    "source": "『農民芸術概論綱要』",
+    "tags": [
+      "japan",
+      "literature"
+    ],
+    "furigana": "せかいがぜんたいこうふくにならないうちは、こじんのこうふくはありえない。"
+  },
+  {
+    "id": "jp-018",
+    "author": "松下幸之助",
+    "authorEn": "Konosuke Matsushita",
+    "textJa": "素直な心が、成長の母である。",
+    "source": "松下哲学の定番表現",
+    "tags": [
+      "japan",
+      "business"
+    ],
+    "furigana": "すなおなこころが、せいちょうのははである。"
+  },
+  {
+    "id": "jp-019",
+    "author": "本田宗一郎",
+    "authorEn": "Soichiro Honda",
+    "textJa": "理論より、まずやってみろ。",
+    "source": "本田の実践主義として知られる趣旨",
+    "tags": [
+      "japan",
+      "business"
+    ],
+    "furigana": "りろんより、まずやってみろ。"
+  },
+  {
+    "id": "jp-020",
+    "author": "渋沢栄一",
+    "authorEn": "Eiichi Shibusawa",
+    "textJa": "道徳なき経済は、犯罪である。",
+    "source": "『論語と算盤』に基づく要約表現",
+    "tags": [
+      "japan",
+      "business"
+    ],
+    "furigana": "どうとくなきけいざいは、はんざいである。"
+  },
+  {
+    "id": "jp-021",
+    "author": "吉田松陰",
+    "authorEn": "Shoin Yoshida",
+    "textJa": "志を立てるのに、遅すぎるということはない。",
+    "source": "松陰に帰せられる励ましの言葉（異同あり）",
+    "tags": [
+      "japan",
+      "history"
+    ],
+    "furigana": "こころざしをたてるのに、おそすぎるということはない。"
+  },
+  {
+    "id": "jp-022",
+    "author": "岡本太郎",
+    "authorEn": "Taro Okamoto",
+    "textJa": "自分の考えでないものは、いらない。",
+    "source": "岡本太郎の生き方論の趣旨",
+    "tags": [
+      "japan",
+      "art"
+    ],
+    "furigana": "じぶんのかんがえでないものは、いらない。"
+  },
+  {
+    "id": "jp-023",
+    "author": "稲盛和夫",
+    "authorEn": "Kazuo Inamori",
+    "textJa": "動機善なりや、私心なかりしか。",
+    "source": "稲盛和夫の判断基準として有名",
+    "tags": [
+      "japan",
+      "business"
+    ],
+    "furigana": "どうきぜんなりや、ししんなかりしか。"
+  },
+  {
+    "id": "jp-024",
+    "author": "孫正義",
+    "authorEn": "Masayoshi Son",
+    "textJa": "いちばん大事なのは、志だ。",
+    "source": "孫正義の講演等で繰り返し語られる趣旨",
+    "tags": [
+      "japan",
+      "business"
+    ],
+    "furigana": "いちばんだいじなのは、こころざしだ。"
+  },
+  {
+    "id": "jp-025",
+    "author": "安藤忠雄",
+    "authorEn": "Tadao Ando",
+    "textJa": "制約があるからこそ、創造が生まれる。",
+    "source": "建築論として語られる趣旨",
+    "tags": [
+      "japan",
+      "art"
+    ],
+    "furigana": "せいやくがあるからこそ、そうぞうがうまれる。"
+  },
+  {
+    "id": "jp-026",
+    "author": "手塚治虫",
+    "authorEn": "Osamu Tezuka",
+    "textJa": "生命を描くことが、僕のテーマだ。",
+    "source": "手塚作品の主題に関する趣旨",
+    "tags": [
+      "japan",
+      "art"
+    ],
+    "furigana": "せいめいをえがくことが、ぼくのてーまだ。"
+  },
+  {
+    "id": "jp-027",
+    "author": "徳川家康",
+    "authorEn": "Ieyasu Tokugawa",
+    "textJa": "怒りは敵と思え。",
+    "source": "遺訓として伝わる句（成立議論あり）",
+    "tags": [
+      "japan",
+      "history"
+    ],
+    "furigana": "いかりはてきとおもえ。"
+  },
+  {
+    "id": "jp-028",
+    "author": "武田信玄",
+    "authorEn": "Shingen Takeda",
+    "textJa": "風林火山。",
+    "source": "『孫子』を旗印とした武田の標語",
+    "tags": [
+      "japan",
+      "history"
+    ],
+    "furigana": "ふうりんかざん。"
+  },
+  {
+    "id": "jp-029",
+    "author": "松下幸之助",
+    "authorEn": "Konosuke Matsushita",
+    "textJa": "失敗したときこそ、学びがある。",
+    "source": "松下語録の趣旨",
+    "tags": [
+      "japan",
+      "business"
+    ],
+    "furigana": "しっぱいしたときこそ、まなびがある。"
+  },
+  {
+    "id": "jp-030",
+    "author": "本田宗一郎",
+    "authorEn": "Soichiro Honda",
+    "textJa": "若者よ、夢を持て。",
+    "source": "本田の若者への言葉として知られる趣旨",
+    "tags": [
+      "japan",
+      "business"
+    ],
+    "furigana": "わかものよ、ゆめをもて。"
+  },
+  {
+    "id": "jp-031",
+    "author": "福沢諭吉",
+    "authorEn": "Yukichi Fukuzawa",
+    "textJa": "独立自尊。",
+    "source": "福沢の教育理念を表す語",
+    "tags": [
+      "japan",
+      "education"
+    ],
+    "furigana": "どくりつじそん。"
+  },
+  {
+    "id": "jp-032",
+    "author": "夏目漱石",
+    "authorEn": "Soseki Natsume",
+    "textJa": "自分の頭で考えよ。",
+    "source": "漱石の近代的個人観の趣旨（要約）",
+    "tags": [
+      "japan",
+      "literature"
+    ],
+    "furigana": "じぶんのあたまできんがえよ。"
+  },
+  {
+    "id": "jp-033",
+    "author": "宮沢賢治",
+    "authorEn": "Kenji Miyazawa",
+    "textJa": "デクノボーと呼ばれても、それでいい。",
+    "source": "『雨ニモマケズ』の趣旨",
+    "tags": [
+      "japan",
+      "literature"
+    ],
+    "furigana": "でくのぼうとよばれても、それでいい。"
+  },
+  {
+    "id": "jp-034",
+    "author": "渋沢栄一",
+    "authorEn": "Eiichi Shibusawa",
+    "textJa": "公益を忘れた私利は、長続きしない。",
+    "source": "『論語と算盤』の趣旨",
+    "tags": [
+      "japan",
+      "business"
+    ],
+    "furigana": "こうえきをわすれたしりは、ながつづきしない。"
+  },
+  {
+    "id": "jp-035",
+    "author": "稲盛和夫",
+    "authorEn": "Kazuo Inamori",
+    "textJa": "楽観的に構想し、悲観的に計画し、楽観的に実行せよ。",
+    "source": "稲盛和夫の有名な行動指針",
+    "tags": [
+      "japan",
+      "business"
+    ],
+    "furigana": "らっかんてきにこうそうし、ひかんてきにけいかくし、らっかんてきにじっこうせよ。"
+  },
+  {
+    "id": "jp-036",
+    "author": "岡本太郎",
+    "authorEn": "Taro Okamoto",
+    "textJa": "明日の神話を、今日作れ。",
+    "source": "岡本の創造論の趣旨（要約）",
+    "tags": [
+      "japan",
+      "art"
+    ],
+    "furigana": "あすのしんわを、きょうつくれ。"
+  },
+  {
+    "id": "jp-037",
+    "author": "孫正義",
+    "authorEn": "Masayoshi Son",
+    "textJa": "時間マシン経営で、未来を先取りせよ。",
+    "source": "孫正義の戦略論として知られる趣旨",
+    "tags": [
+      "japan",
+      "business",
+      "tech"
+    ],
+    "furigana": "じかんましんけいえいで、みらいをさきどりせよ。"
+  },
+  {
+    "id": "jp-038",
+    "author": "安藤忠雄",
+    "authorEn": "Tadao Ando",
+    "textJa": "コンクリートは、詩になりうる。",
+    "source": "安藤建築の素材観の趣旨",
+    "tags": [
+      "japan",
+      "art"
+    ],
+    "furigana": "こんくりーとは、しになりうる。"
+  },
+  {
+    "id": "jp-039",
+    "author": "吉田松陰",
+    "authorEn": "Shoin Yoshida",
+    "textJa": "一日の計は朝にあり。一年の計は春にあり。",
+    "source": "古来の格言が松陰周辺でも引用される形",
+    "tags": [
+      "japan",
+      "history"
+    ],
+    "furigana": "いちにちのけいはあさにあり。いちねんのけいははるにあり。"
+  },
+  {
+    "id": "jp-040",
+    "author": "手塚治虫",
+    "authorEn": "Osamu Tezuka",
+    "textJa": "物語は、読者の心に種をまく。",
+    "source": "手塚の創作観の趣旨（要約）",
+    "tags": [
+      "japan",
+      "art"
+    ],
+    "furigana": "ものがたりは、どくしゃのこころにたねをまく。"
+  }
+]

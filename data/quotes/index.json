@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "updatedAt": "2026-11-15",
+  "files": [
+    "from-user-photo.json",
+    "elon-musk.json",
+    "nietzsche.json",
+    "japanese-greats.json",
+    "world-thinkers.json"
+  ],
+  "notes": [
+    "from-user-photo.json は Downloads 直近画像（実験グラフ見出し）。名言写真が別なら差し替え。",
+    "各名言に furigana（全文ひらがな）を付与。打鍵・表示用。"
+  ],
+  "schema": {
+    "id": "string",
+    "author": "string",
+    "authorEn": "string",
+    "textJa": "漢字かな交じり本文",
+    "furigana": "全文ひらがな（打鍵・表示用）",
+    "source": "string",
+    "tags": "string[]"
+  }
+}
