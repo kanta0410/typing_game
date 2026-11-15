@@ -143,24 +143,28 @@ p {
 .author {
   text-align: center;
   color: var(--accent);
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   font-weight: 600;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.35rem;
 }
 
+/* 漢字が主役 */
 .quote-text {
-  font-size: 1.45rem;
+  font-size: 2rem;
   font-weight: 700;
   text-align: center;
-  line-height: 1.55;
-  margin: 0.35rem 0 0.75rem;
+  line-height: 1.7;
+  margin: 0.15rem 0 1rem;
+  letter-spacing: 0.04em;
+  word-break: break-word;
 }
 
-.furigana {
-  font-size: 0.95rem;
+.furigana,
+.furigana-above {
+  font-size: 0.88rem;
   text-align: center;
-  line-height: 1.5;
-  margin-bottom: 0.85rem;
+  line-height: 1.45;
+  margin-bottom: 0.35rem;
   word-break: break-all;
 }
 
@@ -170,10 +174,26 @@ p {
   color: var(--accent);
 }
 
-.quote-text .rest,
+.quote-text .rest {
+  color: #9a9488;
+}
+
 .furigana .rest,
 .romaji .rest {
   color: var(--muted);
+}
+
+/* 漢字の「いま打つ」を大きく赤く */
+.quote-text .quote-caret,
+.quote-text .caret {
+  color: var(--caret);
+  background: var(--caret-bg);
+  border-bottom: 3px solid var(--caret-underline, var(--caret));
+  border-radius: 6px;
+  padding: 0.08em 0.12em;
+  margin: 0 0.02em;
+  font-weight: 800;
+  box-shadow: 0 0 0 2px var(--caret-bg);
 }
 
 .toggle {
@@ -196,7 +216,6 @@ p {
   line-height: 1.6;
 }
 
-.quote-text .caret,
 .furigana .caret,
 .romaji .caret {
   color: var(--caret);
@@ -205,6 +224,11 @@ p {
   border-radius: 3px;
   padding: 0 1px;
   font-weight: 700;
+}
+
+.romaji-line {
+  opacity: 0.85;
+  font-size: 1.05rem !important;
 }
 
 .theme-grid {
@@ -247,12 +271,19 @@ p {
   letter-spacing: 0.06em;
 }
 
+.theme-preview-kanji {
+  font-family: var(--sans);
+  font-size: 1.35rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+}
+
 .theme-preview .done {
   color: var(--accent);
 }
 
 .theme-preview .rest {
-  color: var(--muted);
+  color: #9a9488;
 }
 
 .romaji {

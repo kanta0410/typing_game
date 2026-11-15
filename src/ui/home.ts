@@ -62,18 +62,19 @@ export function renderHome(
     btn.innerHTML = `
       <div class="theme-label">${t.label}</div>
       <div class="theme-blurb">${t.blurb}</div>
-      <div class="theme-preview">
-        <span class="done">zinsei</span><span class="caret">h</span><span class="rest">a</span>
+      <div class="theme-preview theme-preview-kanji">
+        <span class="done">人生</span><span class="caret quote-caret">は</span><span class="rest">重荷</span>
       </div>
     `;
     const caretEl = btn.querySelector(".caret") as HTMLElement;
     const col = PREVIEW_COLORS[t.id];
     caretEl.style.color = col.c;
     caretEl.style.background = col.bg;
-    caretEl.style.borderBottom = `2px solid ${col.u}`;
-    caretEl.style.fontWeight = "700";
-    caretEl.style.borderRadius = "3px";
-    caretEl.style.padding = "0 1px";
+    caretEl.style.borderBottom = `3px solid ${col.u === "transparent" ? col.c : col.u}`;
+    caretEl.style.fontWeight = "800";
+    caretEl.style.borderRadius = "6px";
+    caretEl.style.padding = "0.08em 0.12em";
+    caretEl.style.boxShadow = `0 0 0 2px ${col.bg}`;
 
     btn.addEventListener("click", () => {
       settings = { ...settings, caretTheme: t.id };
