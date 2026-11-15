@@ -211,9 +211,10 @@ p {
 }
 
 .romaji-line {
-  font-size: 1.15rem;
+  font-size: 1.05rem;
   word-break: break-all;
   line-height: 1.6;
+  opacity: 0.85;
 }
 
 .furigana .caret,
@@ -224,11 +225,6 @@ p {
   border-radius: 3px;
   padding: 0 1px;
   font-weight: 700;
-}
-
-.romaji-line {
-  opacity: 0.85;
-  font-size: 1.05rem !important;
 }
 
 .theme-grid {
